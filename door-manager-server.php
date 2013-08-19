@@ -2,7 +2,7 @@
 /*
 Plugin Name: Door Manager Server
 Plugin URI: http://dougcone.com
-Description: Real World door controler, server side. handles incoming requests.
+Description: Real World door controller, server side. handles incoming requests.
 Version: 0.1
 Author: Doug Cone
 Author URI: http://dougcone.com
@@ -24,3 +24,5 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
+include(plugin_dir_path(__FILE__).'server/door-manager-server.class.php');
+$door_manager_server = new door_manager_server();
