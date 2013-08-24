@@ -44,8 +44,6 @@ define('DMS_API_KEYS', 'dms_api_keys'); //custom post type name
 
 include(DMS_BASE_DIR.'door-manager-server.class.php');
 $door_manager_server = new door_manager_server();
-//include(DMS_BASE_DIR.'door-manager-server-screens.class.php');
-//$door_manager_server_screens = new door_manager_server_screens();
 include(DMS_BASE_DIR.'door-manager-server-api.class.php');
 $door_manager_server_api = new door_manager_server_api();
 

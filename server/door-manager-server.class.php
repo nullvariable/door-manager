@@ -183,6 +183,6 @@ HTML;
     }
 
     function generate_api_key() {
-        return wp_hash(time(), 'nonce');
+        return wp_hash(time(), 'nonce'); //there may be a better way to do this...
     }
 }
